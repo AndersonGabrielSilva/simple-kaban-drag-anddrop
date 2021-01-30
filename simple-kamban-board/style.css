@@ -1,17 +1,14 @@
 html{
     font-family: 'Nunito';
 }
-
 body{
     background-color: #130f0d;
     color: white;
 }
-
 .boards{
     display: flex;
     /* justify-content: space-between; */
 }
-
 .board{
     margin-top: 35px;
     background-color: #141316;
@@ -19,19 +16,16 @@ body{
     border-radius: 4px;
     margin: 15px;
 }
-
 .board h3{
 padding: 16px;
 margin: 0;
 color: #FD951Fcc;
 }
-
 .dropzone{
     padding: 16px;
     min-width: 300px;
     min-height: 200px;
 }
-
 .card {
     width: 250px;
     margin: 25px ;
@@ -42,7 +36,9 @@ color: #FD951Fcc;
     background-color: #1a1a1c;
     box-shadow: 0 2px 2px -1px #FD951Fcc;
 }
-
+.card, .dropzone{
+    transition: 400ms;
+}
 .status{
     width: 30px;
     height: 10px;
@@ -50,15 +46,22 @@ color: #FD951Fcc;
     margin-bottom: 16px;
     border-radius: 8px;
 }
-
 .status.green{
     background-color:#23d2ac ;
 }
-
 .status.blue{
     background-color:#33adff ;
 }
-
 .status.red{
     background-color: red ;
+}
+.highligth {   /*Realçar*/
+    background-color: #FD951F08;
+}
+.over{
+    background-color: #4cd13711;
+}
+.is-dragging{/*Em movimento */
+    cursor: move;
+    opacity: 0.3;
 }
