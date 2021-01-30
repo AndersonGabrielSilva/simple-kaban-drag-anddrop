@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Simple Kaban Board</title>
+</head>
+
+<body>
+    <div class="boards">
+        <div class="board">
+            <h3>Todo</h3>
+            <!--A Fazer-->
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <!--Com draggable: informamos que este componente é arastavel-->
+                    <div class="status green"></div>
+                    <div class="content">Do Videos</div>
+                    <!--Conteudo-->
+                </div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+        <!--Quadro-->
+        <div class="board">
+            <h3>In progress</h3>
+            <!--A Fazer-->
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status blue"></div>
+                    <div class="content">Forum</div>
+                    <!--Conteudo-->
+                </div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+        <div class="board">
+            <h3>Done</h3>
+            <!--A Fazer-->
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status red"></div>
+                    <div class="content">Next Level Week</div>
+                    <!--Conteudo-->
+                </div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+    </div>
+</body>
+
+<script src="script.js" defer></script>
+
+</html>
